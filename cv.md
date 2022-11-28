@@ -30,6 +30,12 @@
 
 * Белорусский национальный технический университет (экономист, бухгалтер, аудитор)
 
+* Видеокурс CS50
+* Видеокурсы JS, CSS, HTML, Git на YouTube-канале Glo Academy
+* (https://learn.javascript.ru/) [JavaScript]
+* (Https://www.freecodecamp.org/certification/mrks77/responsive-web-design) [адаптивного веб-дизайна FreeCodeCamp]
+* [Алгоритмы и структуры данных FreeCodeCamp JavaScript] (https://www.freecodecamp.org/certification/mrks77/javascript-algorithms-and-data-structures)
+
 ## Языки
 
 * Носитель русского языка
