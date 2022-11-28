@@ -32,7 +32,7 @@
 
 * Видеокурс CS50
 * Видеокурсы JS, CSS, HTML, Git на YouTube-канале Glo Academy
-* (https://learn.javascript.ru/) [JavaScript]
+* Литература: [JavaScript](https://learn.javascript.ru) 
 
 ## Языки
 
