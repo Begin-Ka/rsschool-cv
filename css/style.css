@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+/*-----header------------------*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+    height: 100px;
+    background-color: rgb(63, 137, 150);
+    padding: 10px;
+    margin: 0 auto;
+    /*position: fixed;*/
+    z-index: 10;
+}
+.header-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+}
+.header-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 700px;
+    height: 80px;
+}
+.logo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+}
+.nav-link {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: auto 10px;
+}
+.nav-link:hover {
+    border-bottom:2px solid white; 
+    transition: color 3s linear;
+}
+/*-----header------------------*/
+
+/*main */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1600px;
+    height: auto;    
+    margin: 0px auto;
+}
+/* main-inner */
+.main-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    height: 450px;     
+    margin: 100px 0 auto;
+    background-image: url("../assets/3.jpg");
+    opacity: 0.8;    
+}
+/*main-catalog*/
+.main-catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    padding: 40px 20px;
+    margin: auto;    
+    border-bottom: rgb(197, 195, 195) 2px solid;   
+}
+.catalog-cart {
+    display: flex;    
+    justify-content: start;
+    width: 50%;
+    max-width: 700px;
+    padding: 20px;
+    margin: 60px, auto;
+    height: auto;          
+}
+.cart-photo {
+    display: flex;    
+    align-items: center;
+    width: 100%;
+    max-width: 300px;        
+    margin: auto;
+    border-radius: 50%; 
+}
+/*-----------------*/
+.cart-content {
+    display: flex;
+    flex-direction: column;    
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    max-width: 700px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+}
+.cart-name {
+    display: flex;    
+    align-items: center;
+    width: 100%; 
+    margin: 25px auto;   
+    font-size: 30px;    
+    font-family:'Kaushan Script';
+    font-style: italic;
+    font-weight: 500;
+    color:rgb(96, 95, 95);
+    text-decoration:overline;     
+}
+.cart-anons {
+    display: flex;    
+    align-items: center;
+    width: 100%;    
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 16px;    
+    font-family:'Kaushan Script';
+    font-style: italic;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:black;    
+}
+/*--------block-------*/
+.about-me{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+}
+.name-about {
+    display: flex;    
+    margin: auto;
+    margin-bottom: 10px;  
+    padding-bottom: 5px;
+    font-size: 22px;    
+    font-family:'Kaushan Script';    
+    font-weight: 500;
+    color:black;
+    border-bottom: rgb(197, 195, 195) 1px solid; 
+}
+.link-about {
+    font-size: 16px;    
+    font-family:'Kaushan Script';
+    font-style: italic;
+    font-weight: 400;
+    color:black;
+
+}
+/*--------about----------*/
+
+.about {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+       
+}
+.about-name {
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 22px;    
+    font-family:'Kaushan Script';
+    font-style: italic;
+    font-weight: 500;
+    color:black;
+    text-decoration:overline;
+}
+.text-about {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 20px;
+    font-size: 19px;    
+    font-family:'Kaushan Script';
+    font-weight: 500;
+    color:black;
+}
+/*-----photo-in---*/
+
+.photo-in {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    flex-direction: column; 
+    margin: auto;   
+    
+}
+
+.photo-name {
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 22px;    
+    font-family:'Kaushan Script';
+    font-style: italic;
+    font-weight: 500;
+    color:black;
+    text-transform: uppercase;
+    text-decoration:overline;
+}
+
+.photo-cart {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+         
+    
+}
+.photo-img {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    max-width:700px;
+    height: auto;
+}
+/*-----footer----*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+    height: 100px;
+    background-color: rgb(63, 137, 150);
+    padding: 10px;
+    margin: 0 auto;    
+    z-index: 10;
+}
+.footer-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+}
+.footer-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 700px;
+    height: 80px;
+}
+
