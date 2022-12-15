@@ -89,7 +89,36 @@
                 <h2 class="photo-name">Пример кода</h2>
                 <div class="photo-cart">
                     <img class="photo-img" src="assets/img/js1.png" alt="">
-                    <img class="photo-img" src="assets/img/js2.png" alt="">
+                    <pre class="photo-img">
+                        <code>
+                            // slider 
+
+                            autoSlider();
+                            var timer;
+                            var left = 0;
+                            
+                            function autoSlider(){
+                                timer = setTimeout(function(){
+                                    const polosa = document.querySelector(".slider-line");
+                                    left = left - 400;
+                                    if(left < -1200){
+                                        left = 0;
+                                    };
+                                    polosa.style.left = left + "px";
+                                    autoSlider();
+                                },5000)
+                            };
+                            
+                            // arrowUp прокрутка страницы вверх
+                            
+                            
+                            window.onload = function(){
+                                document.getElementById('arrowUp').onclick = function(){
+                                    window.scrollTo(0, 0);
+                                }    
+                            };
+                        </code>
+                    </pre>                    
                 </div>
 
             </div>            
@@ -102,6 +131,7 @@
                 <h1 class="logo">Partfolio</h1>
             </div>
             <div class="footer-nav">
+                <h2 class="nav-link">GIT:  <a href="https://github.com/Begin-Ka/">My acaunt</a> >>></h2>
                 <h2 class="nav-link">JUNIOR FRONT-END DEVELOPER</h2>                
             </div>
         </footer>
